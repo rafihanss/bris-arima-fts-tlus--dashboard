@@ -1,0 +1,18 @@
+Item,Status
+Data terurut berdasarkan tanggal,PASS
+Tidak ada missing value yang tidak ditangani,PASS
+Tidak ada tanggal duplikat,PASS
+Training dan testing tidak overlap,PASS
+Training mendahului testing,PASS
+ARIMA diestimasi hanya dengan training,PASS
+Parameter ARIMA tidak di-refit pada testing,PASS
+Universe FTS hanya menggunakan training,PASS
+Fuzzy sets hanya berdasarkan training,PASS
+FLR/FLRG hanya berdasarkan training,PASS
+Forecast testing memiliki tanggal yang sesuai,PASS
+Jumlah forecast = jumlah actual,PASS
+MAE berhasil dihitung,PASS
+RMSE berhasil dihitung,PASS
+MAPE berhasil dihitung,PASS
+Tidak terdapat NaN pada hasil akhir,PASS
+Seed acak ditetapkan,PASS
